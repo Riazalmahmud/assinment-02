@@ -1,0 +1,100 @@
+/* default css */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* start google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* star Global  css */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f2f2;
+    
+}
+
+
+/* start slider section  */
+.slider{
+    background-color: #2d25a0;
+}
+.slider-glary{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 90px;
+}
+.half-width h2{
+    font-size: 64px;
+    color: #FFFFFF;
+}
+button.watch-pink-color {
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 27px;
+}
+button.watch-pink-color a{
+    text-decoration: none;
+    font-size: 16px;
+    padding:7px 15px;
+    color: #FFFFFF;
+}
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+button:hover.watch-pink-color a i{
+margin-left: 20px;
+transition: 0.8s;
+transform: scale(2,3);
+transition-duration: 0.8s;
+
+
+}
+.half-width img{
+    width: 556.01px;
+    height: 498px;
+}
+.half-width:hover img{
+transition: 1s;
+transform: rotate(20deg);
+transition-duration: 0.8s;
+margin-right: 30px;
+}
+/* start player information section */
+.players-info-main{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    width: 1050px;
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players-details{
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player-info{
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+.player-info h2.player-name a{
+    text-decoration: none;
+    color: #18191F;
+
+}
