@@ -98,3 +98,49 @@ margin-right: 30px;
     color: #18191F;
 
 }
+
+/*start highlight copa american */
+.All-Highlights{
+    display: flex;
+}
+#game-highlight .half-width h2{
+    color: black;
+}
+/*End highlight copa american */
+
+/*start footer section style */
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.footers{
+    width: 484px;
+}
+.footer-logo img{
+    width: 484px;
+    height: 110px;
+}
+.social-media-icon{
+    text-align: center;
+}
+.social-media-icon a {
+    padding: 12px;
+    font-size: 21px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #b7b7bd;
+    margin: 10px;
+}
+.social-media-icon a i {
+font-size: 22px;
+}
+.copyright-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #000000;
+
+}
