@@ -1,7 +1,7 @@
 
 
 /* Mobile device responsive style  */
-@media only screen and (max-width:480px) {
+/* @media only screen and (max-width:480px) {
 
     .half-width img{
         width: 395px;
@@ -40,12 +40,60 @@
     grid-row-gap: 20px;
     align-content: space-between;
 }
-/* tabletes & large smartphone devices */
-@media only screen and (min-width:481px) and (max-width:768px){
+tabletes & large smartphone devices */
+/* @media only screen and (min-width:481px) and (max-width:768px){
     .players-info-main, .player, .All-Highlights, .involved-country-list, .award-info, .footer-main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 20px;
         align-content: space-between;
+    }
+} */
+
+@media only screen and (max-width:480px) {
+    .slider-glary{
+        flex-wrap: wrap;
+    }
+    .player {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+    .half-width {
+        margin-left: -72px;
+    }
+    .half-width img {
+        width: 350px;
+        height: 350px;
+        margin-left: -16px;
+    }
+    .slider {
+        background-color: #2d25a0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .players-info-main, .All-Highlights, .award-info {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    .involved-country-list {
+     grid-template-columns: repeat(1, 1fr);
+ 
+    }
+    .players {
+        width: 302px;
+    }
+    .involved-title {
+         width: 302px;
+
+    }
+    .footer-logo img {
+        width: 300px;
+        height: 80px;
+        margin-top: 20px;
     }
 }
