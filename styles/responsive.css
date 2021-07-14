@@ -42,12 +42,7 @@
 }
 /* tabletes & large smartphone devices */
 @media only screen and (min-width:481px) and (max-width:768px){
-    .players-info-main{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-row-gap: 20px;
-    }
-    .player, .All-Highlights, .involved-country-list,.award-info, .footer-main{
+    .players-info-main, .player, .All-Highlights, .involved-country-list, .award-info, .footer-main{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-row-gap: 20px;
